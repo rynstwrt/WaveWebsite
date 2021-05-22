@@ -188,8 +188,8 @@ header ul li {
 }
 @media only screen and (min-width: 1200px) {
   header a {
-    font-size: 1.25rem;
-    margin-left: 1rem;
+    font-size: 1rem;
+    margin-left: 0.75rem;
   }
   header ul {
     margin-right: 2rem;
@@ -199,7 +199,7 @@ header ul li {
     font-size: 3rem;
   }
   #landing p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   #top-wave {
@@ -212,23 +212,23 @@ header ul li {
   }
 
   h2 {
-    font-size: 2.5rem;
-  }
-
-  .section p {
     font-size: 2rem;
   }
 
+  .section p {
+    font-size: 1.5rem;
+  }
+
   #about #profile-picture {
-    width: 300px;
+    width: 250px;
   }
 
   .project-row {
-    width: 700px;
+    width: 500px;
   }
 
   #social-links a {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 }
 
