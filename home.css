@@ -103,7 +103,7 @@ header ul li {
   margin: 1rem auto;
 }
 #about #profile-picture img {
-  width: 150px;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -184,6 +184,51 @@ header ul li {
 
   #social-row {
     width: 350px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  header a {
+    font-size: 1.25rem;
+    margin-left: 1rem;
+  }
+  header ul {
+    margin-right: 2rem;
+  }
+
+  #landing h1 {
+    font-size: 3rem;
+  }
+  #landing p {
+    font-size: 1.5rem;
+  }
+
+  #top-wave {
+    position: relative;
+    top: -2px;
+  }
+
+  #bottom-wave {
+    bottom: -2px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .section p {
+    font-size: 2rem;
+  }
+
+  #about #profile-picture {
+    width: 300px;
+  }
+
+  .project-row {
+    width: 700px;
+  }
+
+  #social-links a {
+    font-size: 1.75rem;
   }
 }
 
